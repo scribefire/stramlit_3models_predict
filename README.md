@@ -24,7 +24,11 @@ python -m pip install -r requirements.txt
 streamlit run 1-3.py
 ```
 
-WindowsではPowerShellで ` .\\.venv\\Scripts\\Activate.ps1 ` を実行して仮想環境を有効にしてください。
+Windows PowerShellでは、仮想環境を次のコマンドで有効にしてください。
+
+```powershell
+.\.venv\Scripts\Activate.ps1
+```
 
 ## CSVの形式
 
